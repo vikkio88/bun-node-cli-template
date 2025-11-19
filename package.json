@@ -8,12 +8,14 @@
     "APP_BIN": "./dist/index.js"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/minimist": "^1.2.5"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
+    "minimist": "^1.2.8",
     "picocolors": "^1.1.1"
   },
   "scripts": {
